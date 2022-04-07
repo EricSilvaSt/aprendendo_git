@@ -1,0 +1,29 @@
+Meu Aprendizado sobre GIT.
+
+Eu já costumo utilizar alguns comandos no CMD, como:
+cd, mkdir (md), dir, entre outros. Utilizando esses comandos eu crio pastas e direciono meu trabalho para estas pastas.
+
+
+Alguns comandos e anotações que estou fazendo durante o aprendizado de GIT:
+
+Primeira configuração do GIT
+
+git config --global user.name "Meu Nome" *Faz com que seja criado um nome de usuário git local*
+
+git config --global user.email meuemail@exemplo.com *Faz com que o Git reconheça a minha conta e vincule todas as minhas alterações a essa conta*
+
+Após essa configuração eu posso usar os comandos ditos no início para me direcionar até o meu repositório.
+------------------------------------------------------------------------
+
+No repositório
+
+git init *para iniciar o GIT na pasta em questão*
+git add + nomeDoArquivo *adiciona um arqiuvo específico para commit*
+git add . *adiciona todo o diretório e seus arquivos para commit*
+git commit -m "mensagem de commit/alteração no diretório" *para dar o commit no diretório onde estou trabalhando*
+git clone + url *clona um reposítório de terceiros para minha máquina local*
+git status *para visualizar o estado atua dos arquivos e/ou pastas*
+git diff *verifica as alterações em determnado arquivo, caso haja*
+git log *exibe todos os commits realizados no diretório*
+
+
